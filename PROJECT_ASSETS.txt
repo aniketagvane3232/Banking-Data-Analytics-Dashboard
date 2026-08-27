@@ -1,0 +1,1 @@
+Place your original Banking.csv and clients.csv in data/; BankEDA_V1.ipynb and BankEDA_V2.ipynb in notebooks/; Banking_Dashboard_Presentation.pptx in powerbi/.
