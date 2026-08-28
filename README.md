@@ -1,83 +1,80 @@
-🏦 Banking Analytics Dashboard
+Absolutely bro. The main issue is that your screenshot headings currently have **no actual image Markdown/HTML underneath them**, and some GitHub links were accidentally converted into Google search URLs.
 
-Interactive banking data analytics project built by Aniket Agvane.
+Here is the **clean final README** in the same style as your NeuroBrief README, with all 6 images correctly connected to your `assets` folder.
 
-Banking Analytics Dashboard is a data analytics project focused on transforming banking data into meaningful business insights through Python Exploratory Data Analysis (EDA) and Power BI dashboards.
+````markdown
+# 🏦 Banking Data Analytics Dashboard
 
-The project presents the complete analytics workflow through a modern web-based case study.
+> **End-to-end data analytics and business intelligence project built by Aniket Agvane.**
 
-🔗 Project Links
+Banking Data Analytics Dashboard is an end-to-end analytics project that transforms raw banking data into meaningful business insights using **Python, Exploratory Data Analysis (EDA), and Microsoft Power BI**.
 
-GitHub: https://github.com/aniketagvane3232/Banking-Data-Analytics-Dashboard
+The project also includes a **React + Vite web showcase** that presents the complete analytical workflow, insights, dashboards, and project documentation in an interactive interface.
 
-Live Project: https://banking-data-analytics-dashboard.vercel.app/
+---
 
-✨ Features
+## 🔗 Project Links
 
-📊 Banking Data Analysis — explore important banking metrics and trends.
+- **Live Project:** https://banking-data-analytics-dashboard.vercel.app/
+- **GitHub Repository:** https://github.com/aniketagvane3232/Banking-Data-Analytics-Dashboard
 
-👥 Customer Analysis — identify customer-related patterns and insights.
+---
 
-💳 Transaction Analysis — analyze transaction activity and behavior.
+## ✨ Features
 
-💰 Financial Insights — understand financial performance through data.
+- 📊 **Banking Data Analysis** — analyze financial metrics, account types, transactions, and performance trends.
+- 👥 **Customer Behavioral Analytics** — explore customer patterns, demographics, activity, and behavior.
+- 💳 **Transaction Analysis** — analyze transaction volumes, frequencies, and trends across different segments.
+- 🐍 **Python EDA Workflow** — perform data cleaning, exploration, statistical analysis, and visualization using Python.
+- 📈 **Interactive Power BI Dashboard** — transform analytical findings into interactive reports and KPIs.
+- 🌐 **React Web Showcase** — present the complete analytics project through a modern web interface.
+- 📓 **Jupyter Notebooks** — document the complete exploratory data analysis workflow.
+- 📱 **Responsive Interface** — provide a clean and accessible project presentation.
 
-🐍 Python EDA — clean, explore and analyze banking data.
+---
 
-📓 Jupyter Notebooks — document the complete exploratory analysis process.
+## 🛠️ Tech Stack
 
-📈 Power BI Dashboard — present insights using interactive visualizations.
+### Data Analytics
 
-🌐 Interactive Case Study — showcase the complete project through a web interface.
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Exploratory Data Analysis
 
-📱 Responsive Presentation — designed for a smooth viewing experience.
+### Business Intelligence
 
-🛠️ Tech Stack
+- Microsoft Power BI
+- KPI Modeling
+- Data Visualization
+- Business Intelligence
+- Data Storytelling
 
-Data Analytics
+### Frontend
 
-Python
+- React
+- JavaScript
+- Vite
+- HTML5
+- CSS3
 
-Jupyter Notebook
+### Deployment & Version Control
 
-Pandas
+- Vercel
+- Git
+- GitHub
 
-NumPy
+---
 
-Matplotlib
+## 🏗️ Project Architecture
 
-Exploratory Data Analysis
+The complete project follows this analytics pipeline:
 
-Business Intelligence
+**Banking Dataset → Data Cleaning → Python EDA → Business Insights → Power BI Dashboard → React Web Showcase**
 
-Microsoft Power BI
-
-Interactive Dashboards
-
-KPI Analysis
-
-Data Visualization
-
-Frontend
-
-React
-
-JavaScript
-
-Vite
-
-HTML
-
-CSS
-
-Vercel
-
-🏗️ Project Architecture
-
-The overall analytics workflow is:
-
-Banking Dataset → Data Cleaning → Python EDA → Business Insights → Power BI Dashboard → Web Presentation
-
+```text
 ┌─────────────────────┐
 │   Banking Dataset   │
 └──────────┬──────────┘
@@ -89,207 +86,273 @@ Banking Dataset → Data Cleaning → Python EDA → Business Insights → Power
 └──────────┬──────────┘
            │
            ▼
-┌─────────────────────┐
-│     Python EDA      │
-│ Pandas / NumPy      │
-│ Charts & Analysis   │
-└──────────┬──────────┘
+┌──────────────────────┐
+│      Python EDA      │
+│  Pandas / NumPy      │
+│  Matplotlib / Stats  │
+└──────────┬───────────┘
            │
            ▼
 ┌─────────────────────┐
 │   Business Insights │
-│     & KPIs          │
+│       & KPIs        │
 └──────────┬──────────┘
            │
            ▼
 ┌─────────────────────┐
 │      Power BI       │
 │ Interactive Reports │
-│    & Dashboards     │
+│     & Dashboards    │
 └──────────┬──────────┘
            │
            ▼
 ┌─────────────────────┐
-│   Web Presentation  │
-│   React Application │
+│   React Web App     │
+│   Project Showcase  │
 └─────────────────────┘
+````
 
-📊 Analytics Workflow
+---
 
-1. Banking Dataset
+## 🔄 Analytics Workflow
+
+### 1. 📥 Banking Dataset
 
 The banking dataset is used as the foundation for the project.
 
-2. Data Preparation
+### 2. 🧹 Data Cleaning
 
-The data is prepared and structured before analysis.
+Raw data is prepared, cleaned, and structured before analysis.
 
-3. Python Exploratory Data Analysis
+### 3. 🐍 Python Exploratory Data Analysis
 
-Python and Jupyter Notebook are used to explore the dataset and identify useful patterns.
+Python and Jupyter Notebook are used to explore the dataset and identify important patterns.
 
-The analysis focuses on areas such as:
+The analysis covers areas such as:
 
-Customer behavior
+* Customer behavior
+* Account information
+* Transaction activity
+* Financial trends
+* Data distributions
+* Business patterns
 
-Transactions
+### 4. 💡 Business Insights
 
-Banking metrics
+The results of the exploratory analysis are converted into meaningful business findings and KPIs.
 
-Financial trends
+### 5. 📊 Power BI
 
-Data distributions
+Power BI is used to transform analytical findings into interactive dashboards and business reports.
 
-Business patterns
+### 6. 🌐 Web Showcase
 
-4. Business Insights
+The complete project is presented through a React/Vite-based web application.
 
-The results from the exploratory analysis are converted into meaningful findings and KPIs.
+---
 
-5. Power BI
+# 📸 Project Screenshots
 
-Power BI is used to transform the analytical findings into interactive dashboards and visual reports.
-
-6. Web Presentation
-
-The completed project is presented through a web-based portfolio/case-study interface.
-
-📸 Project Screenshots
-
-📊 Dashboard Overview
+## 📊 Dashboard Overview
 
 <p align="center">
-  <img src="assets/1.png" alt="Banking Analytics Dashboard 1" width="850"/>
+  <img src="assets/1.png" alt="Banking Data Analytics Dashboard Overview" width="900"/>
 </p>
 
-📈 Banking Analytics
+---
+
+## 📈 Banking Analytics
 
 <p align="center">
-  <img src="assets/2.png" alt="Banking Analytics Dashboard 2" width="850"/>
+  <img src="assets/2.png" alt="Banking Analytics" width="900"/>
 </p>
 
-👥 Customer Insights
+---
+
+## 👥 Customer Insights
 
 <p align="center">
-  <img src="assets/3.png" alt="Banking Analytics Dashboard 3" width="850"/>
+  <img src="assets/3.png" alt="Customer Insights" width="900"/>
 </p>
 
-💳 Transaction Analysis
+---
+
+## 💳 Transaction Analysis
 
 <p align="center">
-  <img src="assets/4.png" alt="Banking Analytics Dashboard 4" width="850"/>
+  <img src="assets/4.png" alt="Transaction Analysis" width="900"/>
 </p>
 
-💰 Financial Analysis
+---
+
+## 💰 Financial Analysis
 
 <p align="center">
-  <img src="assets/5.png" alt="Banking Analytics Dashboard 5" width="850"/>
+  <img src="assets/5.png" alt="Financial Analysis" width="900"/>
 </p>
 
-📊 Final Dashboard
+---
+
+## 📊 Final Dashboard
 
 <p align="center">
-  <img src="assets/6.png" alt="Banking Analytics Dashboard 6" width="850"/>
+  <img src="assets/6.png" alt="Final Banking Analytics Dashboard" width="900"/>
 </p>
 
-📓 Python EDA
+---
 
-The project uses Jupyter Notebooks to perform exploratory data analysis.
+# 🐍 Python Exploratory Data Analysis
 
-Typical analysis includes:
+Python is used to perform the exploratory data analysis workflow.
 
-Raw Data
-   │
-   ▼
+The EDA process includes:
+
+* Data understanding
+* Data cleaning
+* Data preparation
+* Statistical exploration
+* Customer analysis
+* Transaction analysis
+* Financial analysis
+* Data visualization
+* Business insight generation
+
+### EDA Flow
+
+```text
+Raw Banking Data
+       │
+       ▼
 Data Understanding
-   │
-   ▼
+       │
+       ▼
 Data Cleaning
-   │
-   ▼
+       │
+       ▼
 Exploratory Analysis
-   │
-   ▼
-Visualization
-   │
-   ▼
-Business Findings
+       │
+       ▼
+Data Visualization
+       │
+       ▼
+Business Insights
+```
 
-The notebooks document the analytical process and provide a reproducible way to explore the banking dataset.
+---
 
-📈 Power BI Dashboard
+# 📈 Power BI Dashboard
 
-Power BI is used to convert the analytical findings into an interactive business intelligence dashboard.
+Microsoft Power BI is used to convert analytical findings into interactive business intelligence dashboards.
 
-The dashboard helps present:
+The dashboard focuses on:
 
-Key Performance Indicators
+* 📌 Key Performance Indicators
+* 👥 Customer insights
+* 💳 Transaction trends
+* 💰 Financial metrics
+* 📊 Banking performance
+* 🔎 Interactive analysis
 
-Banking trends
+Power BI provides the business intelligence layer of the project and helps convert raw analytical results into an easy-to-understand visual format.
 
-Customer insights
+---
 
-Transaction insights
+# 🚀 Getting Started
 
-Financial patterns
+## Prerequisites
 
-Interactive visualizations
+Make sure you have the following installed:
 
-The Power BI layer acts as the final business intelligence stage of the project.
+* Git
+* Python 3.8+
+* Node.js
+* npm
+* Jupyter Notebook
+* Microsoft Power BI Desktop *(optional — required for editing `.pbix` files)*
 
-🚀 Getting Started
+---
 
-Prerequisites
+## 1️⃣ Clone the Repository
 
-Make sure you have:
-
-Git
-
-Python 3.x
-
-Jupyter Notebook
-
-Node.js and npm
-
-Microsoft Power BI Desktop (for Power BI development)
-
-1. Clone the Repository
-
+```bash
 git clone https://github.com/aniketagvane3232/Banking-Data-Analytics-Dashboard.git
+
 cd Banking-Data-Analytics-Dashboard
+```
 
-2. Python Environment
+---
 
-Create a virtual environment:
+## 2️⃣ Create Python Virtual Environment
 
+```bash
 python -m venv venv
+```
 
-Activate it on Windows:
+### Windows
 
+```powershell
 venv\Scripts\activate
+```
 
-Install the required Python packages used by the notebooks:
+### macOS / Linux
 
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 3️⃣ Install Python Dependencies
+
+```bash
 pip install pandas numpy matplotlib jupyter
+```
 
-3. Start Jupyter Notebook
+---
 
+## 4️⃣ Start Jupyter Notebook
+
+```bash
 jupyter notebook
+```
 
-Open the relevant notebook from the notebooks directory and run the analysis.
+Open the notebooks available inside the `notebooks` directory.
 
-4. Run the Web Application
+---
 
-If you want to run the project presentation locally:
+# ⚛️ Run the React Web Application
 
+Navigate to the frontend directory:
+
+```bash
 cd frontend
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
+```
 
-Then open the local URL displayed by Vite in your browser.
+The application will be available at the local Vite URL shown in your terminal.
 
-📁 Project Structure
+Usually:
 
+```text
+http://localhost:5173
+```
+
+---
+
+# 📁 Project Structure
+
+```text
 Banking-Data-Analytics-Dashboard/
 │
 ├── assets/
@@ -301,6 +364,7 @@ Banking-Data-Analytics-Dashboard/
 │   └── 6.png
 │
 ├── data/
+│   └── Banking Dataset
 │
 ├── frontend/
 │   ├── public/
@@ -314,115 +378,129 @@ Banking-Data-Analytics-Dashboard/
 │   └── ...
 │
 ├── powerbi/
+│   └── Power BI Reports
 │
 ├── whole Project data/
 │
 ├── .gitignore
 ├── PROJECT_ASSETS.txt
 └── README.md
+```
 
-The exact folder structure may evolve as the project grows.
+> The project structure may evolve as new analytics, dashboards, and features are added.
 
-🌐 Deployment
+---
 
-The project presentation is deployed on Vercel.
+# 🎯 Project Goals
 
-🚀 Live Project
+The primary goal of this project is to demonstrate a complete data analytics and business intelligence workflow.
 
-https://banking-data-analytics-dashboard.vercel.app/
+The project focuses on:
 
-📦 GitHub Repository
+1. 📥 Collecting banking data
+2. 🧹 Cleaning and preparing the dataset
+3. 🐍 Performing exploratory data analysis
+4. 📊 Identifying important patterns
+5. 💡 Generating business insights
+6. 📌 Creating meaningful KPIs
+7. 📈 Building interactive Power BI dashboards
+8. 🌐 Presenting the complete project through a web application
 
-https://github.com/aniketagvane3232/Banking-Data-Analytics-Dashboard
+---
 
-🎯 Project Goals
-
-The main goal of this project is to demonstrate an end-to-end data analytics workflow:
-
-Collect banking data
-
-Understand and prepare the dataset
-
-Perform Python-based EDA
-
-Identify meaningful business insights
-
-Create useful KPIs
-
-Build an interactive Power BI dashboard
-
-Present the complete analysis through a web application
-
-This project demonstrates how raw banking data can be transformed into actionable insights through data analysis and business intelligence.
-
-💡 Key Learning Areas
+# 💡 Key Learning Areas
 
 This project demonstrates practical experience with:
 
-Data Cleaning
+* Data Cleaning
+* Exploratory Data Analysis
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Jupyter Notebook
+* Banking Analytics
+* Customer Analytics
+* Transaction Analytics
+* Financial Analytics
+* Business Intelligence
+* Power BI
+* KPI Development
+* Data Visualization
+* Data Storytelling
+* Dashboard Design
+* React
+* Vite
+* Web Deployment
 
-Exploratory Data Analysis
+---
 
-Python
+# 🌐 Live Application
 
-Pandas
+### 🚀 Try the Project
 
-Data Visualization
+**[https://banking-data-analytics-dashboard.vercel.app/](https://banking-data-analytics-dashboard.vercel.app/)**
 
-Business Intelligence
+### 💻 Source Code
 
-Power BI
+**[https://github.com/aniketagvane3232/Banking-Data-Analytics-Dashboard](https://github.com/aniketagvane3232/Banking-Data-Analytics-Dashboard)**
 
-KPI Development
+---
 
-Banking Analytics
+# 👨‍💻 Author
 
-Customer Analytics
+## Aniket Agvane
 
-Transaction Analytics
+Built and maintained by **Aniket Agvane**.
 
-Dashboard Design
+* **GitHub:** [https://github.com/aniketagvane3232](https://github.com/aniketagvane3232)
+* **Project:** [https://github.com/aniketagvane3232/Banking-Data-Analytics-Dashboard](https://github.com/aniketagvane3232/Banking-Data-Analytics-Dashboard)
+* **Live Project:** [https://banking-data-analytics-dashboard.vercel.app/](https://banking-data-analytics-dashboard.vercel.app/)
 
-Data Storytelling
+---
 
-React-based Project Presentation
+# 🤝 Contributing
 
-👨‍💻 Author
+Contributions, issues, and feature requests are welcome!
 
-Aniket Agvane
+### Contribution Steps
 
-Built and maintained by Aniket Agvane.
-
-GitHub: https://github.com/aniketagvane3232
-
-Project: https://github.com/aniketagvane3232/Banking-Data-Analytics-Dashboard
-
-Live Project: https://banking-data-analytics-dashboard.vercel.app/
-
-🤝 Contributing
-
-Contributions and suggestions are welcome.
-
+```bash
 # Fork the repository
 
+# Clone your fork
+git clone YOUR_FORK_URL
+
 # Create a feature branch
-git checkout -b feature/my-feature
+git checkout -b feature/AmazingFeature
 
 # Make your changes
+
+# Stage changes
 git add .
-git commit -m "Add my feature"
 
-# Push your branch
-git push origin feature/my-feature
+# Commit changes
+git commit -m "Add AmazingFeature"
 
-Then open a Pull Request on GitHub.
+# Push the branch
+git push origin feature/AmazingFeature
+```
 
-⭐ Support
+Then open a Pull Request.
 
-If you like Banking Analytics Dashboard, consider giving the repository a ⭐ on GitHub.
+---
 
-Thanks for checking out my project! 🚀
+# ⭐ Support
 
-🚀 Built with passion by Aniket Agvane
+If you like **Banking Data Analytics Dashboard**, consider giving the repository a ⭐ on GitHub.
 
-Banking Analytics — Explore. Analyze. Visualize. Decide.
+Your support is appreciated! ❤️
+
+---
+
+## 🚀 Built with passion by Aniket Agvane
+
+
+````
+
+So once you commit the `assets` folder along with this README, GitHub will render all six screenshots automatically.
